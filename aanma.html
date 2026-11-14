@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AANMA · clinical AI model by t2i</title>
+<meta name="description" content="AANMA is a clinical AI model built in India by t2i. It reads the scan with the patient’s history and suggests the next step to the doctor.">
+<meta property="og:title" content="AANMA · clinical AI model by t2i">
+<meta property="og:description" content="AANMA is a clinical AI model built in India by t2i. It reads the scan with the patient’s history and suggests the next step to the doctor.">
+<meta name="theme-color" content="#FAF8F2">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="pills l"><a class="pill" href="index.html">Overview</a><a class="pill on" href="aanma.html">AANMA</a><a class="pill" href="calvee.html">Calvee</a></div>
+  <a class="wordmark" href="index.html" aria-label="The 2AM Idea, home"><svg role="img" aria-label="The 2AM Idea" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128.56 76.07">
+  
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect fill="#FFD400" x=".81" y="53.85" width="127.58" height="19.93" rx="2.5" ry="2.5" transform="translate(-1.63 1.69) rotate(-1.48)"/>
+      <text fill="#0B2A6B" font-family="Arial, sans-serif" font-size="17.94" letter-spacing="1.11em" transform="translate(17.56 71.59) rotate(-1.48)"><tspan x="0" y="0">idea</tspan></text>
+      <g>
+        <path fill="#FFD400" d="M67.13,12.48c-.05-.18.09-.34,0-.54-.09.19-.08.4-.08.6,0,.13,0,.26,0,.42,0,.08-.1.11-.15.11,0-.17.07-.35.04-.56-.12.18-.05.39-.13.56-.05.12-.25.3-.37.23-.29-.17-.45-.11-.46-.61v-.71s-.11-.08-.13-.12c-.03-1.37-.01-2.72.11-4.09.04-.44.11-.84.17-1.27.05-.32.61-.88.73-.92.07-.02.16.05.24.05,0,.09-.07.1-.04.19.09-.11.19-.13.34-.14.1,0,.18.09.26.18.26.31-.21.23,0,.83.1-.05.02-.14.1-.2.12.1.13.26.11.42l-.25,1.89-.35,3.02c-.02.18-.09.34-.05.53.02.09-.06.14-.12.15Z"/>
+        <path fill="#FFD400" d="M70.87,13.9c-.09.04-.19,0-.26.1s-.31.21-.41.08c-.06-.08-.18-.14-.21-.22-.1-.22-.03-.54.09-.74s.05-.39.11-.58c.29-.88.69-1.7,1.09-2.54.27-.56.57-1.08.96-1.55.13-.16.26-.13.42-.17.14-.03.29-.34.47-.23.1.06.17.15.31.19.12.03.23.3.15.41-.13.18-.29.33-.19.54.09-.07.07-.18.17-.23.06.17.03.35-.05.5l-.89,1.6c-.36.66-.81,1.25-1.15,1.92-.11.22-.19.43-.42.55-.11.06-.09.3-.19.35Z"/>
+        <path fill="#FFD400" d="M78.07,13.32c-.08-.18-.45-.42-.62-.22.11.03.15-.06.24,0-.11.08-.25.09-.4.13-.08-.17-.27-.17-.43-.1-.79.34-1.53.73-2.25,1.19-.16.1-.27.25-.47.31-.29.08-.29.39-.85.62,0,.14-.12.31-.07.43.05.11.18.22.24.32.07.13.32-.17.67,0,.86-.26,1.65-.67,2.48-1,.35-.14.62-.36.94-.54.4-.22.27-.57.4-.64.11-.06.17-.12.2-.22.03-.12-.03-.19-.07-.29ZM77.03,13.3c.01-.06.06-.06.17-.05-.04.04-.09.05-.17.05Z"/>
+      </g>
+      <path fill="currentColor" d="M127.42,44.48c-.42-5.18-1.23-15.63-3.6-20.01-2.95-5.45-10.86-4.75-15.39-1.79-1.18.77-3.84,3.41-4.95,3.56-2.11.28-2.84-1.51-3.97-2.8-2.7-3.06-6.89-3.88-10.78-4.42-2.17-.3-5.13-.66-7.29-.44-4.77.49-3.9,5.65-4.05,9.16-.23,5.51-.55,11.03-.73,16.56-.07,2.17-.44,5.22,2.35,5.8,1.96.41,6.37-.1,8.45-.43,3.03-.48,3.45-1.12,3.32-4.2-.1-2.37-.54-4.86-.73-7.24-.17-2.12-.85-6.31,2.21-6.56,1.28-.1,2.55.36,3.25,1.46,1.73,2.73.87,8.95.77,12.16-.04,1.25-.2,2.9,1.15,3.47,1.12.48,4.79.24,6.14.1,2.55-.25,3.35-.64,3.66-3.3.3-2.52.25-5.16.45-7.69.12-1.49.22-4.59,1.84-5.22.97-.38,2.31-.1,3.13.52,3.07,2.32,1.92,10.08,2.18,13.56.1,1.36.48,2.5,1.92,2.88,1.64.43,7.29.09,9.03-.34.55-.14,1.18-.47,1.48-.96.52-.83.23-2.83.14-3.84Z"/>
+      <path fill="currentColor" d="M63.13,17.29c-3.64-.21-8.22-.3-11.86-.09-8.84.5-9.31,9.45-2.27,12.96,1.34.67,2.85,1.02,4.32,1.3-5.33,1.21-9.54,5.31-9.87,10.95-.46,7.83,7.28,9.63,13.61,8.72,2.28-.33,4.36-1.2,5.67-3.15.13-.02.16.24.17.32.05.53.03,1.13.1,1.67h12.04v-22.49c-.55-7.22-5.23-9.8-11.9-10.18ZM62.99,39.96c-.1,1.25-.94,2.6-2.02,3.22-1.79,1.03-5.31,1.02-5.57-1.61-.25-2.49,3.13-3.82,5.13-3.99,1.96-.16,2.62.41,2.47,2.37Z"/>
+      <path fill="currentColor" d="M44.24,18.59C47.17-1.42,18.62-4.98,7.52,6.47c-2.13,2.2-5.14,6.96-1.99,9.51,1.33,1.07,7.03,2.63,8.87,2.99,3.57.68,3.13-1.45,4.84-3.49,3.11-3.69,10.47-1.14,6.74,3.85-1.99,2.67-8.29,5.85-11.34,7.57-6.68,3.77-11.72,5.71-13.88,13.9-1,3.78-1.89,8.77,3.44,9.16.01,0,.02,0,.03,0h35.55c3.98-.32,3.35-4.9,2.92-7.73-.82-5.43-3.39-8.66-8.75-10.08h0c-.38-.09-.38-.62,0-.72,5.88-1.59,9.41-6.81,10.29-12.84Z"/>
+    </g>
+  </g>
+</svg></a>
+  <div class="pills r"><a class="pill on" href="mailto:create@the2amidea.com">Contact us</a></div>
+</header>
+<main>
+
+<section class="hero">
+  <h1 class="title"><svg class="mark" viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="38" fill="#FFD400"/><path d="M12 42h14l6-14 9 28 7-20 4 6h16" fill="none" stroke="#0B2A6B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>AANMA</h1>
+  <p class="sub">A clinical AI model that reads the scan with the patient’s history and suggests the next step to the doctor.</p>
+  <div class="btns"><a class="b b1" href="mailto:create@the2amidea.com?subject=AANMA%20access">Get access</a><a class="b b2" href="#use">See use cases</a></div>
+</section>
+
+<div class="col">
+<h2 id="how">Overview</h2>
+<p>A scan shows only part of the story. The same shadow on a chest X-ray means one thing for a 30-year-old with a cough, and another for a 70-year-old on blood thinners.</p>
+<div class="diagram" role="img" aria-label="Scan, patient history, labs and medicines go into AANMA. Urgency, next step, alerts and a draft report come out.">
+  <div class="dcol"><span><b>Scan</b> · X-ray, CT, MRI</span><span><b>History</b> · linked record (ABHA)</span><span><b>Labs</b> and <b>medicines</b></span></div>
+  <div class="dcore">AANMA<small>clinical model</small></div>
+  <div class="dcol"><span><b>Urgency</b> · which case first</span><span><b>Next step</b> · tests or referral</span><span><b>Alerts</b> · allergies and risks</span><span><b>Draft report</b> · for the doctor</span></div>
+</div>
+<p>AANMA reads the scan together with the patient’s history, lab results and medicines. Its suggestion fits the patient, not only the image. The doctor reviews it, changes what is wrong and signs.</p>
+
+<h2>Capabilities</h2>
+<h3>Reads the scan with the history</h3>
+<p>AANMA reads X-ray, CT and MRI images together with the linked record, lab results and medicines.</p>
+<h3>Sorts cases by urgency</h3>
+<p>Each case gets an urgency level, so the most serious patient reaches a doctor first.</p>
+<h3>Suggests the next step</h3>
+<p>AANMA suggests what to do next for the patient, such as more tests or a referral to a specialist.</p>
+<h3>Flags allergies and risks</h3>
+<p>AANMA checks the record for allergies, current medicines and past conditions, and shows an alert before the doctor decides.</p>
+<h3>Drafts the report</h3>
+<p>For each scan, AANMA writes a first draft of the report. The doctor edits it and signs it.</p>
+<h3>Learns from doctors</h3>
+<p>Doctors review and correct its outputs, and each correction goes back into training.</p>
+</div>
+
+<div class="wide">
+<table>
+  <thead><tr><th>At a glance</th><th>AANMA</th></tr></thead>
+  <tbody><tr><td><b>Type</b></td><td>Clinical AI model</td></tr><tr><td><b>Reads</b></td><td>X-ray, CT and MRI scans; linked patient record (ABHA); lab results; medicines</td></tr><tr><td><b>Returns</b></td><td>Urgency level, next step, alerts and a draft report</td></tr><tr><td><b>Used by</b></td><td>Hospitals, diagnostic centres, healthcare platforms and medical colleges</td></tr><tr><td><b>Access</b></td><td>API</td></tr><tr><td><b>Human in charge</b></td><td>A doctor reviews and signs every output</td></tr><tr><td><b>Built in</b></td><td>India</td></tr></tbody>
+</table>
+</div>
+
+<div class="col">
+<h2 id="use">Use cases</h2>
+<h3>Emergency rooms</h3>
+<p>A patient’s history sits in hospital files, lab systems, pharmacy records and health apps that do not share data. AANMA brings the relevant parts into one view, so the doctor sees allergies, medicines and past conditions before deciding.</p>
+<h3>Radiology queues</h3>
+<p>AANMA reads each scan first and sorts the queue by urgency, so the most serious cases reach a radiologist first. It also drafts the report for the radiologist to edit and sign.</p>
+<h3>Healthcare platforms</h3>
+<p>Hospital software, health apps, insurers, PACS vendors and teleradiology networks add AANMA to the products they already sell, without building a model of their own.</p>
+<h3>Medical colleges</h3>
+<p>Residents compare their reads and next steps with AANMA’s, and faculty use it for teaching cases and research.</p>
+<h3>Healthcare brands</h3>
+<p>Device and pharma brands offer AANMA inside their own products, under their own name.</p>
+
+<h2>Responsible use</h2>
+<p>AANMA supports the doctor’s decision and never makes it. Every output goes to a doctor, and every report carries a doctor’s signature.</p><p>Patient data stays in India and is handled under the DPDP Act. Records open only with the patient’s consent, and every access goes into an audit log.</p>
+
+<h2>Get access</h2>
+<p>Healthcare platforms, hospitals and medical colleges connect to AANMA by API. The platform sends the scan and the record, and AANMA returns its output to the platform’s own screens. Write to <a href="mailto:create@the2amidea.com">create@the2amidea.com</a>.</p>
+</div>
+
+<section class="faq"><h2>Frequently asked questions</h2><div><details><summary>Does AANMA replace the doctor?</summary><p>No. AANMA suggests an urgency level, a next step and alerts. A doctor reviews, edits and signs every output.</p></details><details><summary>Why read the history with the scan?</summary><p>The right next step depends on the patient. Age, past conditions, lab results and medicines change what a finding on a scan means.</p></details><details><summary>Which scans does AANMA read?</summary><p>X-ray, CT and MRI.</p></details><details><summary>How does a platform connect to AANMA?</summary><p>By API. The platform sends the scan and the linked record, and shows AANMA’s output inside its own product.</p></details><details><summary>Where is patient data kept?</summary><p>In India, under the DPDP Act. Access needs the patient’s consent and is logged.</p></details></div></section>
+
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <a class="wordmark" href="index.html" aria-label="The 2AM Idea, home"><svg role="img" aria-label="The 2AM Idea" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128.56 76.07">
+  
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect fill="#FFD400" x=".81" y="53.85" width="127.58" height="19.93" rx="2.5" ry="2.5" transform="translate(-1.63 1.69) rotate(-1.48)"/>
+      <text fill="#0B2A6B" font-family="Arial, sans-serif" font-size="17.94" letter-spacing="1.11em" transform="translate(17.56 71.59) rotate(-1.48)"><tspan x="0" y="0">idea</tspan></text>
+      <g>
+        <path fill="#FFD400" d="M67.13,12.48c-.05-.18.09-.34,0-.54-.09.19-.08.4-.08.6,0,.13,0,.26,0,.42,0,.08-.1.11-.15.11,0-.17.07-.35.04-.56-.12.18-.05.39-.13.56-.05.12-.25.3-.37.23-.29-.17-.45-.11-.46-.61v-.71s-.11-.08-.13-.12c-.03-1.37-.01-2.72.11-4.09.04-.44.11-.84.17-1.27.05-.32.61-.88.73-.92.07-.02.16.05.24.05,0,.09-.07.1-.04.19.09-.11.19-.13.34-.14.1,0,.18.09.26.18.26.31-.21.23,0,.83.1-.05.02-.14.1-.2.12.1.13.26.11.42l-.25,1.89-.35,3.02c-.02.18-.09.34-.05.53.02.09-.06.14-.12.15Z"/>
+        <path fill="#FFD400" d="M70.87,13.9c-.09.04-.19,0-.26.1s-.31.21-.41.08c-.06-.08-.18-.14-.21-.22-.1-.22-.03-.54.09-.74s.05-.39.11-.58c.29-.88.69-1.7,1.09-2.54.27-.56.57-1.08.96-1.55.13-.16.26-.13.42-.17.14-.03.29-.34.47-.23.1.06.17.15.31.19.12.03.23.3.15.41-.13.18-.29.33-.19.54.09-.07.07-.18.17-.23.06.17.03.35-.05.5l-.89,1.6c-.36.66-.81,1.25-1.15,1.92-.11.22-.19.43-.42.55-.11.06-.09.3-.19.35Z"/>
+        <path fill="#FFD400" d="M78.07,13.32c-.08-.18-.45-.42-.62-.22.11.03.15-.06.24,0-.11.08-.25.09-.4.13-.08-.17-.27-.17-.43-.1-.79.34-1.53.73-2.25,1.19-.16.1-.27.25-.47.31-.29.08-.29.39-.85.62,0,.14-.12.31-.07.43.05.11.18.22.24.32.07.13.32-.17.67,0,.86-.26,1.65-.67,2.48-1,.35-.14.62-.36.94-.54.4-.22.27-.57.4-.64.11-.06.17-.12.2-.22.03-.12-.03-.19-.07-.29ZM77.03,13.3c.01-.06.06-.06.17-.05-.04.04-.09.05-.17.05Z"/>
+      </g>
+      <path fill="currentColor" d="M127.42,44.48c-.42-5.18-1.23-15.63-3.6-20.01-2.95-5.45-10.86-4.75-15.39-1.79-1.18.77-3.84,3.41-4.95,3.56-2.11.28-2.84-1.51-3.97-2.8-2.7-3.06-6.89-3.88-10.78-4.42-2.17-.3-5.13-.66-7.29-.44-4.77.49-3.9,5.65-4.05,9.16-.23,5.51-.55,11.03-.73,16.56-.07,2.17-.44,5.22,2.35,5.8,1.96.41,6.37-.1,8.45-.43,3.03-.48,3.45-1.12,3.32-4.2-.1-2.37-.54-4.86-.73-7.24-.17-2.12-.85-6.31,2.21-6.56,1.28-.1,2.55.36,3.25,1.46,1.73,2.73.87,8.95.77,12.16-.04,1.25-.2,2.9,1.15,3.47,1.12.48,4.79.24,6.14.1,2.55-.25,3.35-.64,3.66-3.3.3-2.52.25-5.16.45-7.69.12-1.49.22-4.59,1.84-5.22.97-.38,2.31-.1,3.13.52,3.07,2.32,1.92,10.08,2.18,13.56.1,1.36.48,2.5,1.92,2.88,1.64.43,7.29.09,9.03-.34.55-.14,1.18-.47,1.48-.96.52-.83.23-2.83.14-3.84Z"/>
+      <path fill="currentColor" d="M63.13,17.29c-3.64-.21-8.22-.3-11.86-.09-8.84.5-9.31,9.45-2.27,12.96,1.34.67,2.85,1.02,4.32,1.3-5.33,1.21-9.54,5.31-9.87,10.95-.46,7.83,7.28,9.63,13.61,8.72,2.28-.33,4.36-1.2,5.67-3.15.13-.02.16.24.17.32.05.53.03,1.13.1,1.67h12.04v-22.49c-.55-7.22-5.23-9.8-11.9-10.18ZM62.99,39.96c-.1,1.25-.94,2.6-2.02,3.22-1.79,1.03-5.31,1.02-5.57-1.61-.25-2.49,3.13-3.82,5.13-3.99,1.96-.16,2.62.41,2.47,2.37Z"/>
+      <path fill="currentColor" d="M44.24,18.59C47.17-1.42,18.62-4.98,7.52,6.47c-2.13,2.2-5.14,6.96-1.99,9.51,1.33,1.07,7.03,2.63,8.87,2.99,3.57.68,3.13-1.45,4.84-3.49,3.11-3.69,10.47-1.14,6.74,3.85-1.99,2.67-8.29,5.85-11.34,7.57-6.68,3.77-11.72,5.71-13.88,13.9-1,3.78-1.89,8.77,3.44,9.16.01,0,.02,0,.03,0h35.55c3.98-.32,3.35-4.9,2.92-7.73-.82-5.43-3.39-8.66-8.75-10.08h0c-.38-.09-.38-.62,0-.72,5.88-1.59,9.41-6.81,10.29-12.84Z"/>
+    </g>
+  </g>
+</svg></a>
+    <nav aria-label="Footer">
+      <a href="aanma.html">AANMA, clinical AI model <span>→</span></a>
+      <a href="calvee.html">Calvee, adaptive learning AI model <span>→</span></a>
+      <a href="mailto:create@the2amidea.com">create@the2amidea.com <span>→</span></a>
+    </nav>
+  </div>
+  <div class="legal">
+    <p>© 2026 The2amidea Pvt Ltd (t2i)</p>
+    <p>CIN U62099KA2026PTC224008 · A-314, 3rd Floor, Unique Concord, Lottegollahalli, Kodigehalli, Bengaluru 560092, Karnataka. AANMA is clinical decision support and does not replace a doctor.</p>
+  </div>
+</footer>
+</body>
+</html>
