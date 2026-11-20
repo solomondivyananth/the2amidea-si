@@ -587,3 +587,8 @@ figure.shot figcaption{font-size:13px;color:var(--mute);padding:12px 16px;backgr
   .wide-photo.split .split-photos{aspect-ratio:4/5}
   .wide-photo.split figcaption{background:none;padding:24px 0 0}
 }
+
+/* three futures: equal cards, links on one line */
+.futs-3 .fut-body{display:flex;flex-direction:column;flex:1}
+.futs-3 .fut h3{min-height:2.1em}
+.futs-3 .fut .more{margin-top:auto;padding-top:28px}
